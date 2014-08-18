@@ -8,6 +8,8 @@ Rails.application.routes.draw do
  post "signin" => "sessions#create"
  delete "signout" => "sessions#destroy", as: :signout
  get "about" => "about#show"
+ get "why" => "why#show"
+ get "contact" => "contact#show"
 end
 
 

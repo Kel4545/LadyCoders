@@ -1,0 +1,3 @@
+class LadyCodersController < ApplicationController
+
+end

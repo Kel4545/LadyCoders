@@ -11,6 +11,8 @@ class SessionsController < ApplicationController
 
     if @user && @user.authenticate(params[:user][:password])
       session[:user_id] = @user.id
+      flash[:notice] = "Thank you"
+      UserMailer.login_email(@user).deliver
       redirect_to root_path
     else
       @user = User.new(email: params[:user][:email])

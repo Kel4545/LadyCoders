@@ -32,6 +32,9 @@ gem "therubyracer"
 gem "less-rails"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem "mailcatcher"
+gem "pry-byebug"
+gem "pry-rails"
+
 
 
 group :test, :development do

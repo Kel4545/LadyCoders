@@ -8,11 +8,11 @@ class RegistrationsController < ApplicationController
 
   def create
     @user = User.new(
-      username: params[:user][:username],
+      firstname: params[:user][:firstname],
+      lastname: params[:user][:lastname],
       email: params[:user][:email],
       password: params[:user][:password]
     )
-
     if @user.save
       redirect_to root_path
     else

@@ -10,6 +10,8 @@ User.destroy_all
 
 
 User.create!(
+  firstname: 'Bacon',
+  lastname: 'Bob',
   email: 'user@example.com',
   password: 'password',
   password_confirmation: 'password'

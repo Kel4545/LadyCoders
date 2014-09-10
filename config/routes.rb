@@ -7,6 +7,11 @@ Rails.application.routes.draw do
  get "about" => "about#show"
  get "why" => "why#show"
  get "contact" => "contact#show"
+
+  resources :mentoring
+  resources :conferences
+  resources :pairing
+  resources :news
 end
 
 

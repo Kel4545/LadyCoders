@@ -1,0 +1,3 @@
+class PairingController < ApplicationController
+
+end

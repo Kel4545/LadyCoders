@@ -1,0 +1,18 @@
+Fri, 17 Oct 2014 14:22:49 -0600
+README.rdoc	Fri, 17 Oct 2014 14:19:34 -0600
+app/controllers/about_controller.rb	Mon, 18 Aug 2014 15:48:19 -0600
+app/controllers/application_controller.rb	Wed, 20 Aug 2014 14:21:09 -0600
+app/controllers/conferences_controller.rb	Wed, 10 Sep 2014 14:15:05 -0600
+app/controllers/contact_controller.rb	Mon, 18 Aug 2014 15:54:09 -0600
+app/controllers/lady_coders_controller.rb	Tue, 19 Aug 2014 11:48:41 -0600
+app/controllers/mentoring_controller.rb	Wed, 10 Sep 2014 14:18:10 -0600
+app/controllers/news_controller.rb	Wed, 10 Sep 2014 14:15:32 -0600
+app/controllers/pairing_controller.rb	Fri, 12 Sep 2014 10:00:12 -0600
+app/controllers/registrations_controller.rb	Wed, 20 Aug 2014 13:45:30 -0600
+app/controllers/sessions_controller.rb	Wed, 20 Aug 2014 14:11:55 -0600
+app/controllers/users_controller.rb	Wed, 20 Aug 2014 13:51:56 -0600
+app/controllers/why_controller.rb	Mon, 18 Aug 2014 15:51:30 -0600
+app/helpers/application_helper.rb	Sun, 10 Aug 2014 14:46:40 -0600
+app/mailers/user_mailer.rb	Tue, 19 Aug 2014 11:47:22 -0600
+app/models/lady_coder.rb	Sun, 10 Aug 2014 15:54:05 -0600
+app/models/user.rb	Wed, 20 Aug 2014 13:31:53 -0600
